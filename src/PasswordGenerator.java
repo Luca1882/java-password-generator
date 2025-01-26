@@ -6,11 +6,11 @@ public class PasswordGenerator {
         //Inizializzo una variabile e chiedo all'utente i suoi dati
         Scanner scan = new Scanner(System.in);
         System.out.println("Inserisci il tuo nome: ");
-        String nome = scan.next();
+        String nome = scan.nextLine();
         System.out.println("Inserisci il tuo cognome: ");
-        String cognome = scan.next();
+        String cognome = scan.nextLine();
         System.out.println("Qual'è il tuo colore preferito ?:  ");
-        String colorePreferito = scan.next();
+        String colorePreferito = scan.nextLine();
         System.out.println("Giorno di nascita: ");
         int giornoNascita = scan.nextInt();
         System.out.println("Mese di nascita: ");
